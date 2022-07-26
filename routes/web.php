@@ -26,7 +26,7 @@ Route::get("/chi-siamo", function (){
 //     return "pagina chi siamo";
 // });
 
-// // il metodo post serve per modificare o aggiornare
+// // il metodo patch serve per modificare o aggiornare
 // Route::patch("/chi-siamo", function (){
 //     return "pagina chi siamo";
 // });
