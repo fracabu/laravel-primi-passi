@@ -12,7 +12,26 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//l'estensione della view è sempre .blade.php ma non va riportata nella funzione
 Route::get('/', function () {
-    return view('welcome');
+    return view("home");
 });
+
+Route::get("/chi-siamo", function (){
+    return "pagina chi siamo";
+});
+
+// il metodo post serve per creare
+// Route::post("/chi-siamo", function (){
+//     return "pagina chi siamo";
+// });
+
+// // il metodo post serve per modificare o aggiornare
+// Route::patch("/chi-siamo", function (){
+//     return "pagina chi siamo";
+// });
+
+// // il metodo delete serve per cancellare
+// Route::delete("/chi-siamo", function (){
+//     return "pagina chi siamo";
+// });
